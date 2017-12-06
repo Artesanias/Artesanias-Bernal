@@ -1,0 +1,53 @@
+body {
+    font-family: "Merriweather", serif;
+}
+p, a {
+    font-family: "Open Sans", sans-serif;
+}
+.creamy, .contacto {
+    background: rgb(244,240,187);
+    color: rgb(218,44,56);
+}
+
+/*------------------------------------HEADER */
+.navbar {
+    background:rgb(218,44,56) !important;
+    border: none;
+}
+.navbar-brand {
+    font-family: "Merriweather", serif;
+    color:rgb(244,240,187) !important;
+    
+}
+.navbar a {
+    color:#fff !important;
+}
+.nav li a:hover, .nav li a:focus {
+    font-weight: bold !important;
+}
+.nav li:hover {
+    font-size:18px;
+    transition:all 0.5s;
+}
+
+/*------------------------------------ CREAMY */
+.creamy{
+	padding: 15px;	
+}
+h3{
+	text-align: center;
+}
+h3,p{
+	color: black;
+}
+
+
+/* ---------------------------------------FOOTER -- */
+footer {
+    padding: 10px 0 15px 0;
+    background: rgb(218,44,56);
+    color: #fff;
+}
+
+
+

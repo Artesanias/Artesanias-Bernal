@@ -1,0 +1,99 @@
+header {
+  position: relative;
+  z-index: 100; }
+
+#portafolio {
+  height: 810px; }
+
+.hi {
+  font-family: inherit;
+  color: black;
+  font-size: 40px;
+  border-radius: 32px; }
+
+.ul {
+  list-style: none;
+  padding-left: 15px;
+  animation: cambiar 12s infinite;
+  font-size: 15px;
+  border-radius: 32px; }
+
+.ul, .hi {
+  margin: 0; }
+/* ---------------------------------------FOOTER -- */
+footer {
+    padding: 10px 0 15px 0;
+    background: rgb(218,44,56);
+    color: #fff;
+}
+.footer{
+    color: white;
+    font-size: 15px;
+    margin-left: 1px;
+}
+#caja {
+  background-color: #ffe5ee;
+  width: 126px;
+  font-size: 12px;
+  -moz-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  -webkit-border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%; }
+
+.smedia {
+  position: absolute;
+  -webkit-transition: left 0.5s cubic-bezier(0.1, 0.8, 0.9, 1), opacity 1s linear;
+  -moz-transition: left 0.5s cubic-bezier(0.1, 0.8, 0.9, 1), opacity 1s linear;
+  -o-transition: left 0.5s cubic-bezier(0.1, 0.8, 0.9, 1), opacity 1s linear;
+  display: inline;
+  opacity: 0;
+  width: 46px;
+  height: 46px;
+  z-index: 100;
+  margin: 10px 0px 0px 20px;
+  text-indent: -9999px;
+  background: no-repeat;
+  left: 3px;
+  margin-top: 19px;
+  margin-left: 54px; }
+
+.square2 {
+  position: absolute;
+  animation: rotate1 5s;
+  -webkit-animation: rotate1 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  transform-origin: 50% 50%; }
+
+.square3 {
+  position: absolute;
+  animation: rotate1 5s;
+  -webkit-animation: rotate1 5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  animation-direction: alternate;
+  -webkit-animation-direction: alternate;
+  transform-origin: 50% 50%; }
+
+@-webkit-keyframes rotate2 {
+  from {
+    -webkit-transform: rotateY(0deg) rotateX(360deg); }
+  to {
+    -webkit-transform: rotateY(360deg) rotateX(0deg); } }
+@keyframes rotate2 {
+  from {
+    transform: rotateY(0deg) rotateX(360deg); }
+  to {
+    transform: rotateY(360deg) rotateX(0deg); } }
+@-webkit-keyframes rotate1 {
+  from {
+    -webkit-transform: rotateX(0deg) rotateY(0deg); }
+  to {
+    -webkit-transform: rotateX(360deg) rotateY(360deg); } }
+@keyframes rotate1 {
+  from {
+    transform: rotateX(0deg) rotateY(0deg); }
+  to {
+    transform: rotateX(360deg) rotateY(360deg); } }
+
